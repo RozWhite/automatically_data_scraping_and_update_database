@@ -8,8 +8,8 @@ The diagram below illustrates the process of the automated data pipeline used to
 ![Image](/demo.jpg)
 
 ###  Features 
-URL Extraction: Automatically extract all URLs from a given website.<br />
-HTML Scraping: Scrape HTML data from each extracted URL.<br />
-Scheduled Execution: Use crontab to schedule the job to run daily.<br />
-Content Comparison: Compare the scraped HTML content with previous versions.<br />
-Automatic Database Update: Update the database if changes are detected.<br />
+**URL Extraction:** Automatically extract all URLs from a given website.<br />
+**HTML Scraping:** Scrape HTML data from each extracted URL.<br />
+**Scheduled Execution:** Use crontab to schedule the job to run daily.<br />
+**Content Comparison:** Compare the scraped HTML content with previous versions.<br />
+**Automatic Database Update:** Update the database if changes are detected.<br />
