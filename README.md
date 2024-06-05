@@ -23,13 +23,13 @@ Cronjob is a time-based job scheduler that allows tasks to be automatically run 
 **Schedule the Python Script with Cron:**
 - Write 'crontab -e' in the Linux command line
 - Add a new cron job: 
----
+```
 0 * * * * cd /home/yourusername/foldername && /usr/bin/python3 my_script.py
----
+```
 This line tells cron to run the Python script every hour at the start of the hour.
 
 If you are using a virtual environment, you should also activate that environment.
 
----
+```
 0 * * * * cd /home/yourusername/foldername && source env/bin/activate && /usr/bin/python3 my_script.py
----
+```
