@@ -33,3 +33,8 @@ If you are using a virtual environment, you should also activate that environmen
 ```
 0 * * * * cd /home/yourusername/foldername && source env/bin/activate && /usr/bin/python3 my_script.py
 ```
+- Save and Exit
+- To view the list of cron jobs that are scheduled, run:
+```
+crontab -l
+```
