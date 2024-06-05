@@ -14,14 +14,22 @@ The diagram below illustrates the process of the automated data pipeline used to
 **Content Comparison:** Compare the scraped HTML content with previous versions.<br />
 **Automatic Database Update:** Update the database if changes are detected.<br />
 
-## Coding Part
+## Coding Scenarios
 
-text 
+This repository contains code for two different scenarios, each explained in its own folder:
+
+**1. Accessing SharePoint Content:** This scenario explains how to access the content of a page on SharePoint that requires a login. See the [Sharepoint](/Sharepoint/) folder for details.<br />
+**2. Accessing Open Website Content:** This scenario demonstrates how to access the content of an open website. See the [Website](/Website/) folder for details.<br />
+ 
 
 ## Cron Job 
+
 Cronjob is a time-based job scheduler that allows tasks to be automatically run at scheduled times. <br /><br />
 **Schedule the Python Script with Cron:**
-- Write 'crontab -e' in the Linux command line
+- Run the follwing command in the Linux command line:
+```
+crontab -e
+```
 - Add a new cron job: 
 ```
 0 * * * * cd /home/yourusername/foldername && /usr/bin/python3 my_script.py
