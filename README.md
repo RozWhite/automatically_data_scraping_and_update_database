@@ -32,14 +32,14 @@ crontab -e
 ```
 - Add a new cron job: 
 ```
-0 * * * * cd /home/yourusername/foldername && /usr/bin/python3 my_script.py
+30 8 * * * cd /home/yourusername/foldername && /usr/bin/python3 my_script.py
 ```
-This line tells cron to run the Python script every hour at the start of the hour.
+This line tells cron to run the Python script every day at 8:30 am.
 
 If you are using a virtual environment, you should also activate that environment.
 
 ```
-0 * * * * cd /home/yourusername/foldername && source env/bin/activate && /usr/bin/python3 my_script.py
+30 8 * * * cd /home/yourusername/foldername && source env/bin/activate && /usr/bin/python3 my_script.py
 ```
 - Save and Exit
 - To view the list of cron jobs that are scheduled, run:
