@@ -19,6 +19,7 @@ The diagram below illustrates the process of the automated data pipeline used to
 This repository contains code for two different scenarios, each explained in its own folder:
 
 **1. Accessing SharePoint Content:** This scenario explains how to access the content of a page on SharePoint that requires a login. See the [Sharepoint](/Sharepoint/) folder for details.<br />
+
 **2. Accessing Open Website Content:** This scenario demonstrates how to access the content of an open website. See the [Website](/Website/) folder for details.<br />
  
 
